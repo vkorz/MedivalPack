@@ -1,0 +1,91 @@
+{
+	"format_version": "1.8.0",
+	"geometry.snowgolem": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "head",
+				"pivot": [0, 20, 0],
+				"cubes": [
+					{"origin": [-4, 20, -4], "size": [8, 8, 8], "uv": [0, 0], "inflate": -0.5},
+					{"origin": [-1, 23, -6], "size": [2, 2, 3], "uv": [8, 5], "inflate": -0.5}
+				],
+				"locators": {
+					"lead": [0, 20, 0]
+				}
+			},
+			{
+				"name": "arm1",
+				"pivot": [0, 19, 0],
+				"cubes": [
+					{"origin": [-1, 17, -1], "size": [12, 2, 1], "uv": [33, 1], "inflate": -0.5}
+				]
+			},
+			{
+				"name": "arm2",
+				"parent": "arm1",
+				"pivot": [9, 18.7, 0],
+				"rotation": [0, 0, -12.5],
+				"cubes": [
+					{"origin": [9, 16.7, -1], "size": [7, 2, 1], "uv": [34, 1], "inflate": -0.5}
+				]
+			},
+			{
+				"name": "arm6",
+				"parent": "arm2",
+				"pivot": [5, -2, 0],
+				"rotation": [0, 0, -20],
+				"cubes": [
+					{"origin": [15, 14.7, -1], "size": [5, 2, 1], "uv": [35, 1], "inflate": -0.5}
+				]
+			},
+			{
+				"name": "arm3",
+				"pivot": [0, 19, 0],
+				"rotation": [0, 0, 2.5],
+				"cubes": [
+					{"origin": [-11, 17, -1], "size": [12, 2, 1], "uv": [33, 1], "inflate": -0.5, "mirror": true}
+				]
+			},
+			{
+				"name": "arm4",
+				"parent": "arm3",
+				"pivot": [-9, 18.7, 0],
+				"rotation": [0, 0, 12.5],
+				"cubes": [
+					{"origin": [-16, 16.7, -1], "size": [7, 2, 1], "uv": [34, 1], "inflate": -0.5, "mirror": true}
+				]
+			},
+			{
+				"name": "arm5",
+				"parent": "arm3",
+				"pivot": [-9, 18.7, 0],
+				"rotation": [0, 0, 36.5],
+				"cubes": [
+					{"origin": [-14, 16.7, -1], "size": [5, 2, 1], "uv": [36, 1], "inflate": -0.5, "mirror": true}
+				]
+			},
+			{
+				"name": "piece1",
+				"pivot": [0, 11, 0],
+				"cubes": [
+					{"origin": [-5, 11, -5], "size": [10, 10, 10], "uv": [0, 16], "inflate": -0.5},
+					{"origin": [-1, 17, -6], "size": [3, 3, 2], "uv": [12, 24], "inflate": -0.5},
+					{"origin": [-2, 13, -6], "size": [3, 3, 2], "uv": [12, 24], "inflate": -0.5},
+					{"origin": [-1, 8, -7], "size": [3, 3, 2], "uv": [12, 24], "inflate": -0.5}
+				]
+			},
+			{
+				"name": "piece2",
+				"pivot": [0, 2, 0],
+				"cubes": [
+					{"origin": [-6, 2, -6], "size": [12, 10, 12], "uv": [-3, 14], "inflate": -0.5}
+				]
+			}
+		]
+	}
+}
