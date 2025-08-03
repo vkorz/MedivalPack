@@ -1,0 +1,77 @@
+{
+	"format_version": "1.8.0",
+	"geometry.villager.witch:geometry.villager": {
+		"texturewidth": 64,
+		"textureheight": 128,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 4,
+		"visible_bounds_offset": [0, 2, 0],
+		"bones": [
+			{
+				"name": "nose",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "hat",
+				"pivot": [-5, 32.03125, -5],
+				"cubes": [
+					{"origin": [-5, 32.05, -5], "size": [10, 2, 10], "uv": [0, 64]}
+				]
+			},
+			{
+				"name": "hat2",
+				"parent": "hat",
+				"pivot": [1.75, 32, 2],
+				"rotation": [-3, 0, 1.5],
+				"cubes": [
+					{"origin": [-3.25, 33.5, -3], "size": [7, 2, 7], "uv": [0, 76]}
+				]
+			},
+			{
+				"name": "hat3",
+				"parent": "hat2",
+				"pivot": [1.75, 35, 2],
+				"rotation": [-6, 0, 3],
+				"cubes": [
+					{"origin": [-1.5, 36.5, -1], "size": [4, 2, 4], "uv": [0, 87]},
+					{"origin": [-2, 34.5, -1.5], "size": [5, 3, 5], "uv": [-1, 86]}
+				]
+			},
+			{
+				"name": "hat4",
+				"parent": "hat3",
+				"pivot": [1.75, 38, 2],
+				"rotation": [-12, 0, 6],
+				"cubes": [
+					{"origin": [0.25, 38, 1], "size": [1, 2, 1], "uv": [0, 95], "inflate": 0.25}
+				]
+			},
+			{
+				"name": "bootle",
+				"parent": "hat",
+				"pivot": [4, 10.5, -3],
+				"rotation": [-5, 0, -15],
+				"cubes": [
+					{"origin": [3, 9.5, -4], "size": [2, 3, 2], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "bone8",
+				"parent": "bootle",
+				"pivot": [1, 10.3, -2],
+				"rotation": [0, 0, 10],
+				"cubes": [
+					{"origin": [-5, 11.3, -3], "size": [10, 1, 6], "uv": [-9, -4]}
+				]
+			},
+			{
+				"name": "bone7",
+				"parent": "bootle",
+				"pivot": [4, 12.5, -3],
+				"cubes": [
+					{"origin": [3.5, 11.5, -3.5], "size": [1, 1.5, 1], "uv": [1, 1]}
+				]
+			}
+		]
+	}
+}
