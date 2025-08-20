@@ -45,11 +45,7 @@
 				{
 					"name": "bone",
 					"parent": "hat",
-					"pivot": [3, 31, 0],
-					"cubes": [
-						{"origin": [-1, 31, 3], "size": [6, 10, 0], "uv": [-1, 2]},
-						{"origin": [-3, 31, 3], "size": [6, 10, 0], "pivot": [1, 31, 2], "rotation": [0, 75, 0], "uv": [-1, 2]}
-					]
+					"pivot": [3, 31, 0]
 				},
 				{
 					"name": "rightArm",
@@ -164,11 +160,7 @@
 				{
 					"name": "bone2",
 					"parent": "hat2",
-					"pivot": [3, 31, 0],
-					"cubes": [
-						{"origin": [-1, 31, 3], "size": [6, 10, 0], "uv": [-1, 2]},
-						{"origin": [-3, 31, 3], "size": [6, 10, 0], "pivot": [1, 31, 2], "rotation": [0, 75, 0], "uv": [-1, 2]}
-					]
+					"pivot": [3, 31, 0]
 				},
 				{
 					"name": "rightArm2",

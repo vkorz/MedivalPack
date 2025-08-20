@@ -31,10 +31,7 @@
 					"name": "head4",
 					"parent": "head",
 					"pivot": [-0.5, 1, -6],
-					"rotation": [-20, 0, 0],
-					"cubes": [
-						{"origin": [-1, 7, -5.5], "size": [2, 2, 1], "uv": [6, 4]}
-					]
+					"rotation": [-20, 0, 0]
 				},
 				{
 					"name": "head2",
@@ -42,7 +39,7 @@
 					"pivot": [6, 0, 0],
 					"rotation": [0, 0, -12.5],
 					"cubes": [
-						{"origin": [3.5, 6, -1.5], "size": [1, 4, 3], "uv": [2, 2]}
+						{"origin": [3.5, 8, -1.5], "size": [1, 2, 3], "uv": [0, 9]}
 					]
 				},
 				{
@@ -51,7 +48,7 @@
 					"pivot": [-6, 0, 0],
 					"rotation": [0, 0, 12.5],
 					"cubes": [
-						{"origin": [-4.5, 6, -1.5], "size": [1, 4, 3], "uv": [2, 2], "mirror": true}
+						{"origin": [-4.5, 8, -1.5], "size": [1, 2, 3], "uv": [0, 9], "mirror": true}
 					]
 				},
 				{
