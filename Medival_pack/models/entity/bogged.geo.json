@@ -30,7 +30,6 @@
 					"parent": "body",
 					"pivot": [0, 24, 0],
 					"cubes": [
-						{"origin": [-3, 24, -5], "size": [6, 2, 8], "uv": [1, 0]},
 						{"origin": [-4, 26, -4], "size": [8, 6, 8], "uv": [0, 0]}
 					],
 					"locators": {
@@ -41,10 +40,7 @@
 					"name": "head2",
 					"parent": "head",
 					"pivot": [0, 2, -10],
-					"rotation": [-15, 0, 0],
-					"cubes": [
-						{"origin": [-1, 26, -11], "size": [2, 2, 2], "uv": [9, 6]}
-					]
+					"rotation": [-15, 0, 0]
 				},
 				{
 					"name": "mushrooms",
